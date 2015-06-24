@@ -1,0 +1,16 @@
+/*CSS code*/
+.title{
+    background-color: #b1b1b1
+}
+.name{
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 3%;
+}
+
+/*Section of Media Query for responsive page*/
+@media screen and (max-width: 359px) {
+    .class {
+        font-size: 20px;
+    }
+}
