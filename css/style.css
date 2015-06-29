@@ -3,56 +3,44 @@
   margin:0;
   font-family: 'Roboto', sans-serif;
 }
-
 .clearfix {
   overflow: auto;
 }
-
 .education-entry, .work-entry, .project-entry {
   padding-left: 5%;
   padding-right: 5%;
 }
-
 h1 {
   font-size: 40px;
-  color: #47292B;
+  color: #47292b;
   line-height: 48px;
   display: inline;
 }
-
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #47292B;
+  color: #47292b;
   line-height: 29px;
   padding: 10px;
-    padding-left: 5%;
+  padding-left: 5%;
   padding-right: 5%;
 }
-
 h3 {
   font-style: italic;
   font-size: 20px;
   color: #000000;
   line-height: 22px;
-    padding-left: 5%;
+  padding-left: 5%;
   padding-right: 5%;
 }
-
 h4 {
   font-weight: bold;
   font-size: 14px;
-  color: #4A4A4A;
+  color: #4a4a4a;
   line-height: 17px;
-    padding-left: 5%;
+  padding-left: 5%;
   padding-right: 5%;
 }
-
-h2, h3, h4, h5 {
-
-}
-
-
 .date-text {
   font-style: italic;
   font-size: 14px;
@@ -60,45 +48,37 @@ h2, h3, h4, h5 {
   line-height: 16px;
   float: left;
 }
-
 .location-text {
   font-style: italic;
   font-size: 14px;
-  color: #999999;
+  color: red;
   line-height: 16px;
   float: right;
-
 }
-
 p {
   font-size: 14px;
   color: #333333;
   line-height: 21px;
 }
-
 a {
-  color: #1199C3;
+  color: #1199c3;
   text-decoration: none;
   margin-top: 10px;
   display: block;
 }
-
 .title {
-  color: #53BCEB;
+  color: #53bceb;
 }
-
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #F3F3F3;
+  color: #f3f3f3;
   line-height: 28px;
 }
-
 #skillsH3 {
-  color: #B58847;
+  color: #b58847;
   display: none;
 }
-
 .img-cir {
   height: 200px;
   width: 200px;
@@ -107,35 +87,28 @@ a {
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   }
-
 .dark-yellow-text {
-  color: #F1B113;
+  color: #f1b113;
 }
-
 .light-yellow-text {
-  color: #F9F5DC;
+  color: #f9f5dc;
 }
-
 .white-text {
   font-weight: bold;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
 .light-yellow-bg {
-  background-color: #F9F5DC;
+  background-color: #f9f5dc;
   padding-bottom: 10px;
   clear:both;
 }
-
 .dark-brown {
-  background-color: #47292B;
+  background-color: #47292b;
 }
-
 /* TODO: Replace with image later */
 #header {
-  background-color: #47292B;
+  background-color: #47292b;
 }
-
 .flex-box {
   display: -webkit-flex;
   display: flex;
@@ -144,36 +117,30 @@ a {
   justify-content: space-around;
   padding: 10px;
 }
-
 #footerContacts {
-  background-color: #B58847;
+  background-color: #b58847;
 }
-
 .center-content {
   padding-top: 2.5%;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 2.5%
 }
-
 ul {
   list-style-type: none;
 }
-
 .biopic {
   float: left;
   padding: 10px;
   display: none;
 }
-
 img {
   padding: 10px;
 }
-
 /* Bar chart stuff */
 .chart div {
   font: 10px sans-serif;
-  background-color: #4A4A4A;
+  background-color: #4a4a4a;
   text-align: right;
   padding: 3px;
   margin: 1px;
@@ -181,27 +148,22 @@ img {
   color: white;
   display: inline-block;
 }
-
 span {
   padding: 5px;
 }
-
 #letsConnect {
   text-align: center;
 }
-
 @media only screen and (max-width: 1024px) {
   #letsConnect {
     margin-top: 5%;
   }
 }
-
 @media only screen and (max-width:900px) {
   .biopic {
     width: 175px;
   }
 }
-
 @media only screen and (max-width: 750px) {
   #letsConnect {
     margin-top: 10%;
@@ -213,20 +175,17 @@ span {
     display: none;
   }
 }
-
 #map {
   display: block;
   height: 100%;
   margin-left: 5%;
   margin-right: 5%;
 }
-
 #mapDiv {
   height: 400px;
   width: 100%;
   padding-bottom: 5%;
 }
-
 @media only screen and (min-width: 750px) {
   #skillsH3,
   .biopic {
