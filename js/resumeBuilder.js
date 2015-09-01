@@ -10,7 +10,7 @@ var bio = {
     },
     "welcomeMessage": "Welcome to my page! You will find important information about me. You do not extortion!",
     "skills": ["Sleep 14 hours straight.", "Touching bugs without feeling disgust.", "Rasengan", "Perfect chakra control.", "Yin-yang element", "Katon", "Fūton", "Raiton"],
-    "biopic": "http://www.topdesignmag.com/wp-content/uploads/2014/03/cute-smiling-animals-251.jpg",
+    "biopic": "http://img4.wikia.nocookie.net/__cb20110409231747/denaruto3/de/images/6/63/KazekageNoGaara.png",
     display: function() {
         // body...
         var formattedRole = HTMLheaderRole.replace("%data%", this.role);
